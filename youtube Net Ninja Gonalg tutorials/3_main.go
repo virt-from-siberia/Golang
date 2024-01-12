@@ -17,4 +17,9 @@ func main() {
 	for i := 0; i < len(names); i++ {
 		println(names[i])
 	}
+
+	for index, value := range names {
+		println(names[index])
+		println(value)
+	}
 }
